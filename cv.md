@@ -35,5 +35,7 @@ Skills:
 [Link to my GitHub repository](https://github.com/eglyakov?tab=repositories)
 
 
+Higher education: BSU, Faculty of Radiophysics and Computer Technologies.
+Programming courses: [myitschool](https://myitschool.by/?gclid=CjwKCAiAm-2BBhANEiwAe7eyFEfv1jvpFVM6qEuIxPonCFCZjErZs08EZx1sYkRHBzHm4r_rSSOmdRoCJG8QAvD_BwE).
 
 English level: B1

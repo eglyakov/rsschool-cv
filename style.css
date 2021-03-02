@@ -12,7 +12,7 @@ body {
     max-width: 1280px;
     min-height: 100vh;
     margin: 0 auto;
-    color: rgb(49, 49, 49);
+    color: rgb(59, 59, 59);
     background-color: #fff;
     box-shadow: 0 0 20px #000;
 
@@ -21,7 +21,7 @@ body {
 
 .header {
     width: 30%;
-    background-color: rgb(75, 73, 73);
+    background-color: rgb(59, 59, 59);
     color: #fff;
 }
 
@@ -37,6 +37,11 @@ body {
 
 .header .info__item {
     margin: 10px 0;
+}
+
+.header .info__item figcaption {
+    font-weight: 300;
+    color: rgb(202, 202, 202);   
 }
 
 .main {
@@ -94,6 +99,14 @@ body {
 
 .main .list__item {
     margin-bottom: 10px;
+}
+
+.main .link {
+    color: rgb(59, 59, 59);
+}
+
+.main .link:hover {
+    color: rgb(190, 13, 28);
 }
 
 

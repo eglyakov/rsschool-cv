@@ -1,104 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Egor Glyakov</title>
-    <link href="./style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Egor Glyakov</title>
+  <link href="./style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 <div class="cv">
-    <header class="header">
-        <div class="header__img"><img src="./img.jpg" alt="photo" /></div>
-        <section class="info">
-            <h2 class="info__title">Contact</h2>
-            <figure class="info__item">
-                <figcaption>Phone:</figcaption>
-                <p>+375 (44) 766-43-21</p>
-            </figure>
+  <header class="header">
+    <div class="header__img"><img src="./img.jpg" alt="photo" /></div>
+    
+    <section class="info">
+      <h3 class="info__title">Contact</h3>
+      <ul class="info__list">
+        <li class="info__item">
+          <h4>Phone:</h4>
+          <p>+375 (44) 766-43-21</p>
+        </li>
 
-            <figure class="info__item">
-                <figcaption>Email:</figcaption>
-                <p>eglyakov@gmail.com</p>
-            </figure>
-        </section>
+        <li class="info__item">
+          <h4>Email:</h4>
+          <p>eglyakov@gmail.com</p>
+        </li>
+      </ul>
+    </section>
 
-        <section class="info">
-            <h2 class="info__title">Education</h2>
-            <figure class="info__item">
-                <figcaption>2015 - 2019</figcaption>
-                <p>BSU, Faculty of Radiophysics and Computer Technologies.</p>
-            </figure>
+    <section class="info">
+      <h3 class="info__title">Education</h3>
+      <ul class="info__list">
+        <li class="info__item">
+          <h4>2015 - 2019</h4>
+          <p>BSU, Faculty of Radiophysics and Computer Technologies.</p>
+        </li>
 
-            <figure class="info__item">
-                <figcaption>04.2020 - 09.2020</figcaption>
-                <p>Front-end course</p>
-            </figure>
+        <li class="info__item">
+          <h4>04.2020 - 09.2020</h4>
+          <p>Front-end course</p>
+        </li>
+      </ul>
 
-            <p>English level: B1</p>
-        </section>
-    </header>
+      <p>English level: B1</p>
+    </section>
+  </header>
 
-    <main class="main">
-        <section class="header-info">
-            <h1 class="header-info__title">Egor Glyakov</h1>
-            <p class="header-info__caption">Front-end Developer</p>
-        </section>
+  <main class="main">
+    <section class="header-info">
+      <h1 class="header-info__title">Egor Glyakov</h1>
+      <h2 class="header-info__caption">Front-end Developer</h2>
+    </section>
 
-        <section class="info">
-            <h2 class="info__title">Profile</h2>
-            <p class="info__item">
-                I always try to develop myself, I study various web technologies, as well as English. I want to become a professional web developer.
-            </p>
+    <section class="info">
+      <h3 class="info__title">Profile</h3>
+      <p class="info__item">
+        I always try to develop myself, I study various web technologies, as well as English. I want to become a professional web developer.
+      </p>
 
-            <div class="list">
-                <ul class="list__block">
-                    <li class="list__item">Responsibility</li>
-                    <li class="list__item">Analytic mind</li>
-                    <li class="list__item">Teamwork skills</li>
-                    <li class="list__item">Punctuality</li>
-                </ul>
+      <div class="list">
+        <ul class="list__block">
+          <li class="list__item">Responsibility</li>
+          <li class="list__item">Analytic mind</li>
+          <li class="list__item">Teamwork skills</li>
+          <li class="list__item">Punctuality</li>
+        </ul>
 
-                <ul class="list__block">
-                    <li class="list__item">Stress tolerance</li>
-                    <li class="list__item">Quick learning</li>
-                    <li class="list__item">Sociability</li>
-                    <li class="list__item">Mindfulness</li>
-                </ul>
-            </div>
-        </section>
+        <ul class="list__block">
+          <li class="list__item">Stress tolerance</li>
+          <li class="list__item">Quick learning</li>
+          <li class="list__item">Sociability</li>
+          <li class="list__item">Mindfulness</li>
+        </ul>
+      </div>
+    </section>
 
-        <section class="info">
-            <h2 class="info__title">Skills</h2>
-            <div class="list">
-                <ul class="list__block">
-                    <li class="list__item">HTML5, CSS3, JS, jQuery</li>
-                    <li class="list__item">Development of sites and web applications using the React.js (redux) framework</li>
-                    <li class="list__item"> Writing a Single Page Application</li>
-                    <li class="list__item">Knowledge of OOP</li>
-                    <li class="list__item">Adaptive and cross-browser layout</li>
-                    <li class="list__item">Using the Sass preprocessor</li>
-                    <li class="list__item">Block fixed / fluid layout</li>
-                </ul>
+    <section class="info">
+      <h3 class="info__title">Skills</h3>
+      <div class="list">
+        <ul class="list__block">
+          <li class="list__item">HTML5, CSS3, JS, jQuery</li>
+          <li class="list__item">Development of sites and web applications using the React.js (redux) framework</li>
+          <li class="list__item"> Writing a Single Page Application</li>
+          <li class="list__item">Knowledge of OOP</li>
+          <li class="list__item">Adaptive and cross-browser layout</li>
+          <li class="list__item">Using the Sass preprocessor</li>
+          <li class="list__item">Block fixed / fluid layout</li>
+        </ul>
 
-                <ul class="list__block">
-                    <li class="list__item">Working with forms (sending get / post AJAX data to the database)</li>
-                    <li class="list__item">Writing simple, neat, logical, thoughtful code</li>
-                    <li class="list__item">Connecting non-standard fonts (@ font-face, google web fonts)</li>
-                    <li class="list__item">Implementation of pixel perfect</li>
-                    <li class="list__item">I use the git version control system</li>
-                    <li class="list__item">Knowledge of programs: Photoshop, Figma</li>
-                </ul>
-            </div>
-        </section>
+        <ul class="list__block">
+          <li class="list__item">Working with forms (sending get / post AJAX data to the database)</li>
+          <li class="list__item">Writing simple, neat, logical, thoughtful code</li>
+          <li class="list__item">Connecting non-standard fonts (@ font-face, google web fonts)</li>
+          <li class="list__item">Implementation of pixel perfect</li>
+          <li class="list__item">I use the git version control system</li>
+          <li class="list__item">Knowledge of programs: Photoshop, Figma</li>
+        </ul>
+      </div>
+    </section>
 
-        <div class="info">
-            <a class="link" href="https://github.com/eglyakov?tab=repositories" target="_blank">Link to my GitHub repository</a>
+    <section class="info">
+      <h3 class="info__title">Example of my code</h3>
+      <pre><code class="language-html">
+        function solution(number){
+          if (number <= 0) return 0;
+          let sum = 0;
+          for (let i = 1; i < number; i++) {      
+            if (i % 3 == 0 || i % 5 == 0) {
+              sum += i;
+            }
+          }
+          return sum;
+        }
+      </code></pre>
+    </section>
+
+    <section class="info">
+      <h3 class="info__title">Self introduction</h3>
+      <div class="info__video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mWh-lXsBQgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p><a class="link" href="https://docs.google.com/document/d/1e9-wX6PxYxOiJ1m4cTo_4WXROtQq12DcD95t-gUCmGI/edit?usp=sharing" target="_blank">Transcription</a></p>
+    </section>
+
+    <section class="info">
+      <h3 class="info__title">My projects</h3>
+
+      <div class="projects">
+        <div class="projects__item">
+          <div class="projects__img">
+            <a href="https://rolling-scopes-school.github.io/eglyakov-JSFE2021Q1/virtual-piano/" target="_blank"><img src="piano.png" alt="piano"></a>
+          </div>
+
+          <h5>Virtual piano</h5>
+          <p>Here you can play the piano</p>
+          <p>HTML; CSS; JS</p>
         </div>
-    </main>
+
+        <div class="projects__item">
+          <div class="projects__img">
+            <a href="http://box.donarit.com/" target="_blank"><img src="boxMaker.png" alt="boxMaker"></a>
+          </div>
+          
+          <h5>Box Maker</h5>
+          <p>If you need die cut lines for box, my app can help you</p>
+          <p>HTML; CSS; JS; NodeJS</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="info">
+      <p><a class="link" href="https://github.com/eglyakov?tab=repositories" target="_blank">My GitHub repository</a></p>
+    </div>
+  </main>
 </div>
 </body>
 </html>

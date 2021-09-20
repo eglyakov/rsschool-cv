@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #cdcdcd;
   font-family: 'Montserrat', sans-serif;
@@ -15,24 +19,53 @@ body {
   color: rgb(59, 59, 59);
   background-color: #fff;
   box-shadow: 0 0 20px #000;
-
-  position: relative;
   display: flex;
 }
 
 .nav {
   position: fixed;
-  top: 0;
-  right: 10px;
-  transform: translateY(-100%);
+  top: 10px;
+  right: 25%;
+  transform: translateY(-85%);
+  transition: .4s;
 }
-.nav .active {
+.nav.active {
   transform: translateY(0);
 }
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px #3b3b3b98;
+}
+.nav__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.nav__link {
+  font-size: 20px;
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
 .nav__btn {
+  display: block;
+  margin: 20px auto 0;
   width: 40px;
   height: 40px;
-  transform: translateY(200%);
+  outline: none;
+
+  background-image: url(../img/nav.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #3b3b3b98;
 }
 
 .header {
@@ -196,6 +229,17 @@ body {
 .rss:hover .rss__year {
 	right: -5px;
 	letter-spacing: 0;
+}
+
+@media(max-width: 2000px) {
+  .nav {
+    right: 20%;
+  }
+}
+@media(max-width: 1280px) {
+  .nav {
+    right: 10px;
+  }
 }
 
 @media(max-width: 600px) {

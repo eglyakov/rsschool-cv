@@ -92,6 +92,10 @@ body {
   font-weight: 300;
   color: rgb(202, 202, 202);   
 }
+.header .info__item a {
+  text-decoration: none;
+  color: #fff;   
+}
 
 .main {
   width: 70%;
@@ -239,6 +243,11 @@ body {
 @media(max-width: 2000px) {
   .nav {
     right: 20%;
+  }
+}
+@media(max-width: 1700px) {
+  .nav {
+    right: 12%;
   }
 }
 @media(max-width: 1280px) {
